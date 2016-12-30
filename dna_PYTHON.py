@@ -32,7 +32,7 @@ def dna_translate(seq): # assume we will pass seq = read_seq(DNA.txt) as paramet
     'TAC':'Y', 'TAT':'Y', 'TAA':'_', 'TAG':'_',
     'TGC':'C', 'TGT':'C', 'TGA':'_', 'TGG':'W',
     }
-    #codon is nucleotide triplet compsed of A, G , T, C
+    #codon is nucleotide triplet composed of A, G , T, C
     protein =""
     #check if sequence is divisible by 3
     if len(seq) % 3 == 0 :
